@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Home | Your Academy</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="topbar">
+  <div class="container topbar-inner">
+    <a class="logo" href="index.html">Your Academy</a>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="student/live.html">Live Classes</a>
+      <a href="student/lectures.html">Lectures</a>
+      <a href="student/courses.html">Courses</a>
+      <a href="student/my-learning.html">My Learning</a>
+      <a href="student/profile.html">Profile</a>
+    </div>
+    <button class="mobile-menu">☰</button>
+  </div>
+</nav>
+<nav class="bottom-nav">
+  <a href="index.html" class="active"><span>⌂</span>Home</a>
+  <a href="student/live.html"><span>▶</span>Live</a>
+  <a href="student/lectures.html"><span>▣</span>Lectures</a>
+  <a href="student/courses.html"><span>●</span>Courses</a>
+  <a href="student/profile.html"><span>○</span>Profile</a>
+</nav>
+
+
+<section class="student-hero">
+<div class="container">
+  <div style="font-size:13px;opacity:.8;">WELCOME TO YOUR ACADEMY 👋</div>
+  <h1>What do you want to learn today?</h1>
+  <p>Watch your classes, join live sessions, or continue your course.</p>
+  <input class="search" placeholder="🔍  Search for a course or lecture">
+</div>
+</section>
+
+<main class="section">
+<div class="container">
+  <div class="quick-grid">
+    <a class="quick" href="student/live.html"><span class="quick-icon">🔴</span>Live Class</a>
+    <a class="quick" href="student/lectures.html"><span class="quick-icon">▶️</span>Lectures</a>
+    <a class="quick" href="student/courses.html"><span class="quick-icon">📚</span>Courses</a>
+    <a class="quick" href="student/my-learning.html"><span class="quick-icon">🎓</span>My Learning</a>
+  </div>
+
+  <div style="margin-top:30px;">
+    <div class="title"><h2>Today's Live Class</h2><p>Don't miss your next class.</p></div>
+    <div class="card live-banner">
+      <div>
+        <span class="badge live">TODAY • 7:00 PM</span>
+        <h3>JavaScript — Async & Await</h3>
+        <p>Live with your teacher • 60 minutes</p>
+      </div>
+      <button class="btn btn-primary" onclick="joinLive()">Join Class</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="title"><h2>Continue Learning</h2><p>Pick up where you stopped.</p></div>
+    <div class="card">
+      <div class="row">
+        <div class="thumb" style="width:105px;height:75px;flex:none;font-size:24px;">JS</div>
+        <div style="flex:1;">
+          <b>Complete JavaScript Development</b>
+          <p>16 of 42 lessons completed</p>
+          <div class="progress"><i style="width:38%;"></i></div>
+        </div>
+      </div>
+      <a href="student/video-player.html" class="btn btn-primary" style="margin-top:13px;">▶ Continue Learning</a>
+    </div>
+  </div>
+
+  <div class="title"><h2>Popular Courses</h2><p>Learn something new.</p></div>
+  <div class="grid">
+    <div class="card course-card">
+      <div class="thumb">JS</div>
+      <h3>Complete JavaScript</h3>
+      <p>42 lessons • Lifetime access</p>
+      <div class="price">₹999</div>
+      <a class="btn btn-primary" href="student/course-details.html">View Course</a>
+    </div>
+    <div class="card course-card">
+      <div class="thumb">WD</div>
+      <h3>Web Development</h3>
+      <p>58 lessons • Projects included</p>
+      <div class="price">₹1,499</div>
+      <a class="btn btn-primary" href="student/course-details.html">View Course</a>
+    </div>
+    <div class="card course-card">
+      <div class="thumb">DSA</div>
+      <h3>DSA Preparation</h3>
+      <p>35 lessons • Interview focused</p>
+      <div class="price">₹799</div>
+      <a class="btn btn-primary" href="student/course-details.html">View Course</a>
+    </div>
+  </div>
+</div>
+</main>
+
+<footer><div class="container"><b>Your Academy</b><p>A simple learning platform for students.</p></div></footer>
+<script src="js/student.js"></script>
+</body>
+</html>
